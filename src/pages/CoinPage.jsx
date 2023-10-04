@@ -32,7 +32,7 @@ const CoinPage = () => {
     FetchCoinsData();
   }, []);
 
-  if (!coinData || coinData.length == 0) {
+  if (!coinData || coinData.length === 0) {
     return (
       <Box>
         <LinearProgress />

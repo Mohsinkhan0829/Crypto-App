@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from "./Components/Navbar";
 import { CoinProvider } from "./context/coin/CoinContext";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import CoinPage from "./pages/CoinPage";
+import NavBar from "./Components/NavBar";
 
 const CryptoApp = () => {
   return (
